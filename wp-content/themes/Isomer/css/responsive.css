@@ -1,0 +1,53 @@
+.toggle-panel{
+    position: absolute;
+    color: #fff;
+    top:20px;
+    right:0px;
+    width:40px;
+    height:40px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index:2;
+    display: none;
+}
+@media screen and (min-width: 1200px) {
+
+}
+
+
+@media screen and (max-width: 991px) {
+    #primary{
+        padding-bottom: 0px;
+    }
+    #secondary{
+        padding-top:0px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .toggle-panel{
+        display:block;
+    }
+    #isomer { 
+    	display: none 
+    }
+    #masthead{
+        padding: 10px 0px;
+    }
+    .welcome-box h2.welcome-message, .blog-home .home-post .home-post-title h2{
+        font-size: 28px;
+    }
+    .title-header h1{
+        font-size: 36px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px) {
+
+}
